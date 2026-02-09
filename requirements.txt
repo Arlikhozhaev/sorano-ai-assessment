@@ -1,0 +1,7 @@
+# Part 2: AI Chat Tools - Python Dependencies
+
+# Anthropic Claude API
+anthropic>=0.40.0
+
+# Additional utilities
+python-dotenv>=1.0.0

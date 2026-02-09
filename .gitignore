@@ -1,0 +1,67 @@
+# API Keys and Secrets
+.env
+*.env
+.env.local
+anthropic_api_key.rtf
+*.rtf
+
+# Data Files (too large for GitHub)
+*.nc
+*.grib
+*.grib2
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+venv/
+ENV/
+env/
+.venv
+
+# Personal Notes
+QUICK_REFERENCE.md
+SUBMISSION_GUIDE.md
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# CDS API
+.cdsapirc
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# Logs
+*.log
+
+# Note: We keep forecast_verification.png for the assessment
+# All other image files will be ignored by default
